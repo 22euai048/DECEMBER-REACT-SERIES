@@ -1,0 +1,21 @@
+// RegistrationForm.js
+
+import React, { useState } from 'react';
+
+const RegistrationForm = () => {
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+ 
+
+  const handleRegistration = () => {
+   
+  };
+
+  return (
+    <form onSubmit={handleRegistration}>
+      {/* Form fields for registration */}
+    </form>
+  );
+};
+
+export default RegistrationForm;

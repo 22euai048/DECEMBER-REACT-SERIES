@@ -1,0 +1,17 @@
+// ProductCatalog.js
+
+import React from 'react';
+
+const ProductCatalog = ({ products }) => {
+  return (
+    <div>
+      {products.map((product) => (
+        <div key={product.id}>
+          {/* Display product information */}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default ProductCatalog;

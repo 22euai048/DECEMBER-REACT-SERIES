@@ -1,0 +1,25 @@
+// SearchFilters.js
+
+import React, { useState } from 'react';
+
+const SearchFilters = ({ handleSearch, handleFilter }) => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedFilters, setSelectedFilters] = useState({});
+  // ... other necessary state
+
+  const handleSearchInputChange = (e) => {
+    // Logic for search input change
+  };
+
+  const handleFilterSelection = (filterType, value) => {
+    // Logic for applying filters
+  };
+
+  return (
+    <div>
+      {/* Search input and filter options */}
+    </div>
+  );
+};
+
+export default SearchFilters;

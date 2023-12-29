@@ -1,0 +1,13 @@
+// ShoppingCart.js
+
+import React from 'react';
+
+const ShoppingCart = ({ cartItems, handleAddToCart, handleRemoveFromCart, handleUpdateCart }) => {
+  return (
+    <div>
+      {/* Display cart items and actions */}
+    </div>
+  );
+};
+
+export default ShoppingCart;

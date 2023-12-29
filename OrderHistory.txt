@@ -1,0 +1,13 @@
+// OrderHistory.js
+
+import React from 'react';
+
+const OrderHistory = ({ orders }) => {
+  return (
+    <div>
+      {/* Display user's past orders */}
+    </div>
+  );
+};
+
+export default OrderHistory;
